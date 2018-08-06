@@ -1,0 +1,51 @@
+procedure main()
+
+system("./unicon im01.icn")
+
+system("./unicon im02.icn")
+
+system("./unicon im03.icn")
+
+system("./unicon im04.icn")
+
+system("./unicon im05.icn")
+
+system("./unicon im06.icn")
+
+system("./unicon im07.icn")
+
+system("./unicon im08.icn")
+
+system("./unicon im09.icn")
+
+system("./unicon im10.icn")
+
+system("./unicon im11.icn")
+
+system("./unicon im12.icn")
+
+system("./unicon im13.icn")
+
+system("./unicon im14.icn")
+
+system("./unicon im15.icn")
+
+system("./unicon im16.icn")
+
+system("./unicon im17.icn")
+
+system("./unicon im18.icn")
+
+system("./unicon im19.icn")
+
+system("./unicon im20.icn")
+
+system("./unicon im21.icn")
+
+system("./unicon im22.icn")
+
+system("./unicon im23.icn")
+
+system("./unicon im24.icn")
+
+end

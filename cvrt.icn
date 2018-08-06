@@ -1,0 +1,51 @@
+procedure main()
+
+system("./im01 -l ff01.png")
+
+system("./im02 -l ff02.png")
+
+system("./im03 -l ff03.png")
+
+system("./im04 -l ff04.png")
+
+system("./im05 -l ff05.png")
+
+system("./im06 -l ff06.png")
+
+system("./im07 -l ff07.png")
+
+system("./im08 -l ff08.png")
+
+system("./im09 -l ff09.png")
+
+system("./im10 -l ff10.png")
+
+system("./im11 -l ff11.png")
+
+system("./im12 -l ff12.png")
+
+system("./im13 -l ff13.png")
+
+system("./im14 -l ff14.png")
+
+system("./im15 -l ff15.png")
+
+system("./im16 -l ff16.png")
+
+system("./im17 -l ff17.png")
+
+system("./im18 -l ff18.png")
+
+system("./im19 -l ff19.png")
+
+system("./im20 -l ff20.png")
+
+system("./im21 -l ff21.png")
+
+system("./im22 -l ff22.png")
+
+system("./im23 -l ff23.png")
+
+system("./im24 -l ff24.png")
+
+end

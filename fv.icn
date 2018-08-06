@@ -1,0 +1,167 @@
+
+link wopen
+link xcompat
+link color
+link graphics
+link numbers
+link options
+link button
+link dsetup
+link evmux
+link ivalue 
+link usage
+link strings
+link cfunc
+link random
+link ivalue, usage
+
+invocable all
+
+$include "keysyms.icn"
+
+procedure main()
+
+Window("label=MOVTERM", "size=600,800","bg=black","linewidth=1","fg=green")
+
+WAttrib("cursor=on")
+
+       WAttrib("dx=1", "dy=1")
+
+        intro()
+        
+        main2()
+
+end
+
+procedure main2()
+
+WAttrib("cursor=on")
+
+       WAttrib("dx=1", "dy=1")
+
+        Fg("red")
+  
+        WWrite("Main screen")
+        WWrite("Please press a to continue")
+
+        Fg("green")
+
+        repeat {
+
+w := Active() | stop("Active fails")
+
+################################
+
+#not presently used - can be modified to re-introduce mouse events.
+   
+       case e := Event(w) of {
+
+&lpress | &mpress | &rpress: {
+	      x1 := &x
+	      y1 := &y
+	      x2 := y2 := &null
+	  }
+
+################################
+
+#begin basic keyboard commands.
+
+"\z": {
+	 
+        WriteImage("screen.png")
+
+              }
+
+"\a": {
+	      ok1()
+              }
+"\s": {
+	      ploh()
+              }
+"\g": {
+	      rcs()
+              }
+"\h": {
+	      status01()
+              }
+"\j": {
+	      main()
+              }
+"\G": {
+	      Fg("yellow")
+              }
+"\H": {
+	      Fg("black")
+              }
+"\J": {
+	      Fg("white")
+              }
+"\?": {       
+              inst()      
+              }
+"\.": {       
+              EraseArea()
+              }
+"\@": {
+              exit()
+              }
+"\]": { 
+              Notice("THIS IS JUST A TEST THING SO IGNORE ME")
+              }
+"\,": { 
+              openImage()
+              }
+"\;": {      
+              inputprompt()
+              }
+"\(": { 
+              tmt()
+             
+	}
+    }
+  }
+
+WDone()
+
+end
+
+#####################################
+
+procedure intro()
+
+WAttrib("dx=1", "dy=1")
+
+Fg("red")
+
+Fg("green")
+
+Fg("orange")
+
+
+#############################################################
+
+WWrite("")
+
+delay(1200)
+
+ WWrite("Start?") 
+   WWrite("Y or N?") #make N   
+    
+    while yn1 := WRead() do
+        if yn1 == "n" then interrupt1()
+              else na0101()
+             
+WWrite("")
+
+delay(1200)
+ 
+end
+
+
+
+
+
+
+
+
+

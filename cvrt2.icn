@@ -1,0 +1,51 @@
+procedure main()
+
+system("./im01 -l f01.png")
+
+system("./im02 -l f02.png")
+
+system("./im03 -l f03.png")
+
+system("./im04 -l f04.png")
+
+system("./im05 -l f05.png")
+
+system("./im06 -l f06.png")
+
+system("./im07 -l f07.png")
+
+system("./im08 -l f08.png")
+
+system("./im09 -l f09.png")
+
+system("./im10 -l f10.png")
+
+system("./im11 -l f11.png")
+
+system("./im12 -l f12.png")
+
+system("./im13 -l f13.png")
+
+system("./im14 -l f14.png")
+
+system("./im15 -l f15.png")
+
+system("./im16 -l f16.png")
+
+system("./im17 -l f17.png")
+
+system("./im18 -l f18.png")
+
+system("./im19 -l f19.png")
+
+system("./im20 -l f20.png")
+
+system("./im21 -l f21.png")
+
+system("./im22 -l f22.png")
+
+system("./im23 -l f23.png")
+
+system("./im24 -l f24.png")
+
+end

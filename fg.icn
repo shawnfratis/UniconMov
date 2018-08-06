@@ -1,0 +1,79 @@
+procedure na0101(args)
+
+d := 200.0
+
+at01(1,1)
+WDelay(d)
+at02(1,1,)
+WDelay(d)
+at03(1,1)
+WDelay(d)
+
+at04(1,1)
+WDelay(d)
+at05(1,1,)
+WDelay(d)
+at06(1,1)
+WDelay(d)
+
+at07(1,1)
+WDelay(d)
+at08(1,1,)
+WDelay(d)
+at09(1,1)
+WDelay(d)
+
+at10(1,1)
+WDelay(d)
+at11(1,1,)
+WDelay(d)
+at12(1,1)
+WDelay(d)
+
+at13(1,1)
+WDelay(d)
+at14(1,1,)
+WDelay(d)
+at15(1,1)
+WDelay(d)
+
+at16(1,1)
+WDelay(d)
+at17(1,1,)
+WDelay(d)
+at18(1,1)
+WDelay(d)
+
+at19(1,1)
+WDelay(d)
+at20(1,1,)
+WDelay(d)
+at21(1,1)
+WDelay(d)
+
+at22(1,1)
+WDelay(d)
+at23(1,1,)
+WDelay(d)
+at24(1,1)
+WDelay(d)
+
+
+while 1 do {
+
+while e := Event() do {
+    
+      if e == ("g") then na0102()
+    }
+  }
+
+
+end
+
+procedure na0102()
+at05(1,1)
+WDelay(d)
+#na02()
+end
+
+

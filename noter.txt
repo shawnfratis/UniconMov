@@ -1,0 +1,52 @@
+# = DO RIGHT AWAY ## = things to do later
+
+set up folders
+
+draw frames in unidraw2/drawframes in fg3d
+
+run makeim (to make frame exes, if this hasn't been done)
+
+run cvrt for frames in ea folder - cvrt for 3d cvrt2 for 2d (to turn images to code)
+
+run makefv for fg fv ff01.icn ff02.icn etc etc (to compile all codes) makefv2 for 2d
+
+___________________________________________________
+
+more frames in unidraw2
+
+#need thing to set frame rate
+
+check increments in 3d (3 and 4)
+
+#work on viewer
+
+#find image viewers in icon/unicon + others to help w frame vieweing for animating etc.
+
+##
+
+create single frame viewer
+
+thing to view prev frames?
+
+ref grid?  
+
+system to overlap from 3d frames IN UNIDRAW
+
+view multiple movies in viewer
+
+set image size
+
+numbered .png output for openshot, etc
+
+gif version for sgi
+
+motion blur
+
+textures
+
+particles
+
+integrate gamma/chameleon/other utilities
+
+Texture/image mapping, graduated colors, more color options, some animation functionality (image sequences, as well as image sequence viewer), Incremental camera adjustment, draw program integrated (for textures, etc), tesselation control, various visual effects (lightning, etc), lighting adjustments, scripting, particles/points, lo-res terrain generator, DXF importer (limited), more Unicon 2D and 3D functions (see Unicon manual for more info), more funcions from Jafar Al-Gharaibeh's Unicon 3D viewer.
+

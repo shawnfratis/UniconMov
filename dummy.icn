@@ -1,0 +1,37 @@
+import gui
+$include "guih.icn"
+
+class Untitled : Dialog()
+   method component_setup()
+      self.setup()
+   end
+
+   method end_dialog()
+   end
+
+   method init_dialog()
+   end
+
+   method setup()
+      self.set_attribs("size=644,399")
+   end
+
+   initially
+      self.Dialog.initially()
+end
+
+procedure main()
+   local d
+   d := Untitled()
+   d.show_modal()
+end
+
+### Ivib-v2 layout ##
+#class|Canvas|17|Name Table|table|integer|0|0|SuperClass Name|string|Di
+#alog|Import Name|string|gui|Button Groups|class|ButtonGroupSet|2|Paren
+#t Canvas|1|Boxes|list|0|Checkbox Groups|class|CheckBoxGroupSet|2|Paren
+#t Canvas|1|Boxes|list|0|Gen Indent|integer|3|Gen Main|integer|1|Gen Co
+#mponent Setup|integer|1|Gen Init Dialog|integer|1|Gen Initially|intege
+#r|1|Dialog Struct|class|CDialog|4|Min Width|null|Min Height|null|Ticke
+#r Rate|null|Attribs|list|0|Name|string|Untitled|Width|integer|644|Heig
+#ht|integer|399|Items|list|0|Initial Focus|null|Event Handlers|null|

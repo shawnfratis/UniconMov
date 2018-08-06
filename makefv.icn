@@ -1,0 +1,7 @@
+procedure main()
+
+system("./unicon -c fv.icn fg.icn ff01.icn ff02.icn ff03.icn ff04.icn ff05.icn ff06.icn ff07.icn ff08.icn ff09.icn ff10.icn ff11.icn ff12.icn ff13.icn ff14.icn ff15.icn ff16.icn ff17.icn ff18.icn ff19.icn ff20.icn ff21.icn ff22.icn ff23.icn ff24.icn")
+
+system("./unicon -o mov fv.u fg.u ff01.u ff02.u ff03.u ff04.u ff05.u ff06.u ff07.u ff08.u ff09.u ff10.u ff11.u ff12.u ff13.u ff14.u ff15.u ff16.u ff17.u ff18.u ff19.u ff20.u ff21.u ff22.u ff23.u ff24.u")
+
+end
